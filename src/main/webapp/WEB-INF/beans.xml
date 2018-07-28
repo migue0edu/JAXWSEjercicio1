@@ -13,4 +13,9 @@
           implementor="org.escom.jaxws.HelloWorldImpl" 
           address="/HelloWorld" />
           
+        <jaxws:endpoint
+        	id="clientes"
+        	implementor="org.escom.jaxws.clientes.ClientesImpl"
+        	address="/Clientes"/>
+          
 </beans>
